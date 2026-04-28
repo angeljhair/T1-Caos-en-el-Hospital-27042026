@@ -16,6 +16,12 @@ public class ControladorPaciente {
     public ControladorPaciente() {
         this.lista = new ArrayList<>();
     }
+    
+    public void agregar(Paciente p) {
+        lista.add(p);
+        System.out.println(">>> Paciente agregado exitosamente.");
+    }
+
 
     
 }
