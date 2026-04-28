@@ -57,6 +57,6 @@ public class T1TECNICASDEPROGRAMORIEOBJ {
             }
         } while (op != 3);
      
-        System.out.println("Gracias");
+        System.out.println("Gracias")
     }
 }
