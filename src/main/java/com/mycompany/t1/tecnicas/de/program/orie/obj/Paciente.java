@@ -10,4 +10,11 @@ package com.mycompany.t1.tecnicas.de.program.orie.obj;
  */
 public class Paciente {
     
+    private final String id;
+    private final String nombre;
+    private final String tipoSangre; 
+    private String email;
+
+    
+    
 }

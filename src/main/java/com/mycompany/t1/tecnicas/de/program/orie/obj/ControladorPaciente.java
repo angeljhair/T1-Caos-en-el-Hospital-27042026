@@ -32,9 +32,8 @@ public class ControladorPaciente {
                                    " | Nombre: " + p.getNombre() + 
                                    " | Sangre: " + p.getTipoSangre() + 
                                    " | Email: " + p.getEmail());
-            }
-
-
-
-    
+               }
+        }
+    }
 }
+
