@@ -21,6 +21,19 @@ public class ControladorPaciente {
         lista.add(p);
         System.out.println(">>> Paciente agregado exitosamente.");
     }
+    
+    public void listar() {
+        if (lista.isEmpty()) {
+            System.out.println("La lista de pacientes esta vacia.");
+        } else {
+            System.out.println("\nLISTA DE PACIENTES REGISTRADOS:");
+            for (Paciente p : lista) {
+                System.out.println("ID: " + p.getId() + 
+                                   " | Nombre: " + p.getNombre() + 
+                                   " | Sangre: " + p.getTipoSangre() + 
+                                   " | Email: " + p.getEmail());
+            }
+
 
 
     
