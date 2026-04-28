@@ -3,6 +3,7 @@
  */
 
 package com.mycompany.t1.tecnicas.de.program.orie.obj;
+import java.util.Scanner;
 
 /**
  *
@@ -11,6 +12,4 @@ package com.mycompany.t1.tecnicas.de.program.orie.obj;
 public class T1TECNICASDEPROGRAMORIEOBJ {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
 }
